@@ -6,6 +6,7 @@ import loadPage from "./load-page.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   loadPage();
+  setInterval(left, 3000);
 });
 
 document.getElementById("left").addEventListener("click", () => {
